@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:maxHeight="150dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/cell_bg"
+    android:layout_margin="4dp"
+    >
+
+    <TextView
+        android:id="@+id/cell_titleText"
+        android:textSize="18dp"
+        android:textColor="#FFF"
+        android:textStyle="bold"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="8dp"
+        android:maxLines="1"
+        android:background="@null"
+
+         />
+
+    <TextView
+        android:id="@+id/cell_descriptionText"
+        android:textColor="#FFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/cell_titleText"
+        android:layout_marginTop="4dp"
+        android:padding="8dp"
+        android:background="@null"
+        />
+
+</android.support.constraint.ConstraintLayout>

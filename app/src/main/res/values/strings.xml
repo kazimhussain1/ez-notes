@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Ez Notes</string>
+    <string name="title_placeholder">Title</string>
+    <string name="description_placeholder">Note<i>(s)</i></string>
+</resources>
